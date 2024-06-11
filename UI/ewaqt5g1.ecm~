@@ -1,0 +1,205 @@
+﻿namespace veritabaniProje.UI
+{
+    partial class Musteriler
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.musteriHepsi = new System.Windows.Forms.ToolStripButton();
+            this.musteriEkle = new System.Windows.Forms.ToolStripButton();
+            this.musteriDuzenle = new System.Windows.Forms.ToolStripButton();
+            this.musteriSil = new System.Windows.Forms.ToolStripButton();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.tamam = new System.Windows.Forms.Button();
+            this.iptall = new System.Windows.Forms.Button();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.toolStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(800, 450);
+            this.tabControl1.TabIndex = 1;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.iptall);
+            this.tabPage1.Controls.Add(this.tamam);
+            this.tabPage1.Controls.Add(this.dataGridView1);
+            this.tabPage1.Controls.Add(this.toolStrip1);
+            this.tabPage1.Controls.Add(this.statusStrip1);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(792, 421);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Musteriler";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 30);
+            this.dataGridView1.MultiSelect = false;
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(786, 292);
+            this.dataGridView1.TabIndex = 2;
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.musteriHepsi,
+            this.musteriEkle,
+            this.musteriDuzenle,
+            this.musteriSil});
+            this.toolStrip1.Location = new System.Drawing.Point(3, 3);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(786, 27);
+            this.toolStrip1.TabIndex = 1;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // musteriHepsi
+            // 
+            this.musteriHepsi.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.musteriHepsi.Image = global::veritabaniProje.Properties.Resources.add_group;
+            this.musteriHepsi.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.musteriHepsi.Name = "musteriHepsi";
+            this.musteriHepsi.Size = new System.Drawing.Size(54, 24);
+            this.musteriHepsi.Text = "Bul";
+            this.musteriHepsi.Click += new System.EventHandler(this.musteriHepsi_Click);
+            // 
+            // musteriEkle
+            // 
+            this.musteriEkle.Image = global::veritabaniProje.Properties.Resources.add_group;
+            this.musteriEkle.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.musteriEkle.Name = "musteriEkle";
+            this.musteriEkle.Size = new System.Drawing.Size(60, 24);
+            this.musteriEkle.Text = "Ekle";
+            this.musteriEkle.Click += new System.EventHandler(this.musteriEkle_Click);
+            // 
+            // musteriDuzenle
+            // 
+            this.musteriDuzenle.Image = global::veritabaniProje.Properties.Resources.update;
+            this.musteriDuzenle.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.musteriDuzenle.Name = "musteriDuzenle";
+            this.musteriDuzenle.Size = new System.Drawing.Size(87, 24);
+            this.musteriDuzenle.Text = "Düzenle";
+            this.musteriDuzenle.Click += new System.EventHandler(this.musteriDuzenle_Click);
+            // 
+            // musteriSil
+            // 
+            this.musteriSil.Image = global::veritabaniProje.Properties.Resources.garbage;
+            this.musteriSil.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.musteriSil.Name = "musteriSil";
+            this.musteriSil.Size = new System.Drawing.Size(49, 24);
+            this.musteriSil.Text = "Sil";
+            this.musteriSil.Click += new System.EventHandler(this.toolStripButton3_Click);
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.statusStrip1.Location = new System.Drawing.Point(3, 396);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(786, 22);
+            this.statusStrip1.TabIndex = 0;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // tamam
+            // 
+            this.tamam.Location = new System.Drawing.Point(503, 341);
+            this.tamam.Name = "tamam";
+            this.tamam.Size = new System.Drawing.Size(96, 29);
+            this.tamam.TabIndex = 3;
+            this.tamam.Text = "Tamam";
+            this.tamam.UseVisualStyleBackColor = true;
+            this.tamam.Click += new System.EventHandler(this.tamam_Click);
+            // 
+            // iptall
+            // 
+            this.iptall.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.iptall.Location = new System.Drawing.Point(638, 341);
+            this.iptall.Name = "iptall";
+            this.iptall.Size = new System.Drawing.Size(96, 29);
+            this.iptall.TabIndex = 3;
+            this.iptall.Text = "İptal";
+            this.iptall.UseVisualStyleBackColor = true;
+            // 
+            // Musteriler
+            // 
+            this.AcceptButton = this.tamam;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.iptall;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.tabControl1);
+            this.Name = "Musteriler";
+            this.Text = "Musteriler";
+            this.Load += new System.EventHandler(this.Musteriler_Load);
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton musteriHepsi;
+        private System.Windows.Forms.ToolStripButton musteriEkle;
+        private System.Windows.Forms.ToolStripButton musteriDuzenle;
+        private System.Windows.Forms.ToolStripButton musteriSil;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.Button iptall;
+        private System.Windows.Forms.Button tamam;
+    }
+}
